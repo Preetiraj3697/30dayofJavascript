@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assests/grad.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gradient Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+      integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni"
+      crossorigin="anonymous"
+    />
+  </head>
+<body>
+    <div class="container">
+        <div class="colors">
+            <input type="color" id="color-a" value="#1488cc">
+            <input type="color" id="color-b" value="#2b32b2">
+        </div>
+        <div class="buttons">
+            <button onclick="setDirection('to top', this)">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            <button class="active" onclick="setDirection('to bottom', this)">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button  onclick="setDirection('to right', this)">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+            <button  onclick="setDirection('to left', this)">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="rotate-icon"  onclick="setDirection('to top right', this)">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            <button class="rotate-icon" onclick="setDirection('to bottom left', this)">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="rotate-icon" onclick="setDirection('to bottom right', this)">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+            <button class="rotate-icon" onclick="setDirection('to top left', this)">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+        </div>
+        <button id="submit" onclick="generateCode()">Generator</button>
+        <div class="output">
+            <textarea id="code" rows="2"></textarea>
+            <button id="copy" onclick="copyText()">Copy</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
