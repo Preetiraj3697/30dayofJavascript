@@ -10,7 +10,7 @@ searchBtn.addEventListener("click",()=>{
         result.innerHTML=`<h3>Input Field Cannot Be Empty</h3>`;
     }
     else{
-        fetch(url+userInp)
+        fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${userInp}`)
         .then((response)=> response.json())
         .then((data)=>{
             console.log(data);
