@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Filter by PREETI RAJ</h1>
+    <section>
+        <ul>
+            <li class="list active" data-filter="all">All</li>
+            <li class="list" data-filter="mobile">Mobile</li>
+            <li class="list" data-filter="camera">Camera</li>
+            <li class="list" data-filter="watch">Watch</li>
+            <li class="list" data-filter="shoe">Shoe</li>
+            <li class="list" data-filter="headphone">Headphone</li>
+        </ul>
+        <div class="product">
+            <div class="itemBox" data-item="mobile"><img src="https://m.media-amazon.com/images/I/71AvQd3VzqL._SX569_.jpg" alt=""></div>
+            <div class="itemBox" data-item="camera"><img src="https://m.media-amazon.com/images/I/817aVWYpblL._AC_UY218_.jpg" alt=""></div>
+            <div class="itemBox" data-item="watch"><img src="https://m.media-amazon.com/images/I/61RYmov6UML._AC_UL320_.jpg" alt=""></div>
+            <div class="itemBox" data-item="shoe"><img src="https://m.media-amazon.com/images/I/717ejnrUHVL._AC_UL320_.jpg" alt=""></div>
+            <div class="itemBox" data-item="headphone"><img src="https://m.media-amazon.com/images/I/81SFIVqxUsL._AC_UY218_.jpg" alt=""></div>
+            <div class="itemBox" data-item="mobile"><img src="https://m.media-amazon.com/images/I/71iaqy+yM2L._SX679_.jpg" alt=""></div>
+            <div class="itemBox" data-item="camera"><img src="https://m.media-amazon.com/images/I/71bCLcUXhJL._AC_UY218_.jpg" alt=""></div>
+            <div class="itemBox" data-item="watch"><img src="https://m.media-amazon.com/images/I/61L7mz0jjeL._AC_UL320_.jpg" alt=""></div>
+            <div class="itemBox" data-item="shoe"><img src="https://m.media-amazon.com/images/I/61QYj1cbTRL._SY695._SX._UX._SY._UY_.jpg" alt=""></div>
+            <div class="itemBox" data-item="headphone"><img src="https://m.media-amazon.com/images/I/610bnYBwzmL._AC_UY218_.jpg" alt=""></div>
+            <div class="itemBox" data-item="mobile"><img src="https://m.media-amazon.com/images/I/812YsUxpyfL._AC_SS450_.jpg" alt=""></div>
+            <div class="itemBox" data-item="camera"><img src="https://m.media-amazon.com/images/I/81kY8sP6dIL._AC_UY218_.jpg" alt=""></div>
+            <div class="itemBox" data-item="watch"><img src="https://m.media-amazon.com/images/I/61EclBYcocL._AC_UL320_.jpg" alt=""></div>
+            <div class="itemBox" data-item="shoe"><img src="https://m.media-amazon.com/images/I/41dZaDPCLFL._AC_SR160,160_.jpg" alt=""></div>
+            <div class="itemBox" data-item="headphone"><img src="https://m.media-amazon.com/images/I/61vvmibZy8L._AC_UY218_.jpg" alt=""></div>
+            <div class="itemBox" data-item="mobile"><img src="https://images-eu.ssl-images-amazon.com/images/I/41i7LM0pGwL._SX300_SY300_QL70_FMwebp_.jpg" alt=""></div>
+            <div class="itemBox" data-item="camera"><img src="https://m.media-amazon.com/images/I/51zW2W9wGlL._AC_UY218_.jpg" alt=""></div>
+            <div class="itemBox" data-item="watch"><img src="https://m.media-amazon.com/images/I/61OMvTYZ1oL._AC_UL320_.jpg" alt=""></div>
+            <div class="itemBox" data-item="shoe"><img src="https://m.media-amazon.com/images/I/31geqNYG1jL._AC_SR160,160_.jpg" alt=""></div>
+            <div class="itemBox" data-item="headphone"><img src="https://m.media-amazon.com/images/I/61u1VALn6JL._AC_UY218_.jpg" alt=""></div>
+            <div class="itemBox" data-item="mobile"><img src="https://m.media-amazon.com/images/I/51kOpwxjSvL._SY606_.jpg" alt=""></div>
+            <div class="itemBox" data-item="camera"><img src="https://m.media-amazon.com/images/I/31jX+aam1nL._AC_UY218_.jpg" alt=""></div>
+            <div class="itemBox" data-item="watch"><img src="https://m.media-amazon.com/images/I/61ZM+qKT5UL._AC_UL320_.jpg" alt=""></div>
+            <div class="itemBox" data-item="shoe"><img src="https://m.media-amazon.com/images/I/41kLBjULieL._AC_SR160,160_.jpg" alt=""></div>
+            <div class="itemBox" data-item="headphone"><img src="https://m.media-amazon.com/images/I/61HXCeozUjL._AC_UY218_.jpg" alt=""></div>
+           
+        </div>
+    </section>
+    <script>
+         let list = document.querySelectorAll(".list");
+         let itemBox = document.querySelectorAll('.itemBox');
+         for(let i=0; i<list.length; i++){
+            list[i].addEventListener('click',function(){
+                for(let j=0; j<list.length; j++){
+                    list[j].classList.remove('active');
+                }
+                this.classList.add('active');
+                let dataFilter =this.getAttribute('data-filter');
+                for(let k=0; k<itemBox.length; k++){
+                    itemBox[k].classList.remove('active');
+                    itemBox[k].classList.add('hide');
+                    if(itemBox[k].getAttribute('data-item') == dataFilter || dataFilter == "all"){
+                        itemBox[k].classList.remove('hide');
+                        itemBox[k].classList.add('active');
+                    }
+                }
+            })
+         }
+    </script>
+</body>
+</html>
