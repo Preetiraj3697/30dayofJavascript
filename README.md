@@ -23,7 +23,7 @@
 <h3>23<a href="#">Todo List</a></h3>
 <h3>24<a href="#">Tic Tac toe Game</a></h3>
 <h3>25<a href="#">Palindrome Checker</a></h3>
-<h3>26<a href="#">Captcha in Javascript</a></h3>
+<h3>26<a href="https://merry-mermaid-691481.netlify.app/">Captcha in Javascript</a></h3>
 <h3>27<a href="#">Calender</a></h3>
 <h3>28<a href="#">Calculator</a></h3>
 <h3>29<a href="https://unique-dusk-881121.netlify.app/">Alarm Clock</a></h3>
