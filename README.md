@@ -8,7 +8,7 @@
 <h3>8<a href="#">Quiz App</a></h3>
 <h3>9<a href="#">Weather App</a></h3>
 <h3>10<a href="#">Language Translator App</a></h3>
-<h3>11<a href="#">Dictionary</a></h3>
+<h3>11<a href="https://unique-dusk-881121.netlify.app/">Dictionary</a></h3>
 <h3>12<a href="#">Email Validation</a></h3>
 <h3>13<a href="#">Math Game</a></h3>
 <h3>14<a href="#">Filter Gallery</a></h3>
@@ -26,5 +26,5 @@
 <h3>26<a href="#">Captcha in Javascript</a></h3>
 <h3>27<a href="#">Calender</a></h3>
 <h3>28<a href="#">Calculator</a></h3>
-<h3>29<a href="#">Alarm Clock</a></h3>
+<h3>29<a href="https://unique-dusk-881121.netlify.app/">Alarm Clock</a></h3>
 <h3>30<a href="#">Random Joke App</a></h3>
