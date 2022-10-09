@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .image-container {
+    width: 30%;
+    margin: 5% 0 0 5%;
+  }
+  img {
+    max-width: 100%;
+  }
+  #overlay {
+    display: none;
+    background: url("shoe-img.jpg");
+    position: absolute;
+    width: 25%;
+    height: 35%;
+    margin-top: -30%;
+    margin-left: 50%;
+    border: 2px solid #555;
+    z-index: 1000;
+    background-repeat: no-repeat;
+  }
+  #mouse-overlay {
+    cursor: zoom-in;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    transform: translate(-50%, -50%);
+    background-color: rgba(245, 245, 245, 0.6);
+    border-radius: 50%;
+  }
+  @media only screen and (max-width: 768px) {
+    .image-container {
+      width: 55%;
+    }
+    #overlay {
+      margin-left: 70%;
+      width: 25%;
+      height: 15%;
+    }
+  }

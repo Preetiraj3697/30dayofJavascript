@@ -1,0 +1,115 @@
+* {
+	box-sizing: border-box;
+}
+ul {
+	list-style-type: none;
+}
+body {
+	font-family: Verdana, sans-serif;
+}
+
+#calendar {
+	max-width: 600px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin:auto;
+}
+
+.month {
+	padding: 70px 25px;
+	width: 100%;
+	background: #1abc9c;
+	text-align: center;
+}
+
+.month ul {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.month ul li {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+#weekdays {
+	margin: 0;
+	padding: 10px 0;
+	background-color: #ddd;
+}
+
+#weekdays li {
+	color: #666;
+	text-align: center;
+}
+
+#days {
+	padding: 10px 0;
+	background: #eee;
+	margin: 0;
+}
+
+#days li {
+	list-style-type: none;
+	text-align: center;
+	font-size: 16px;
+	color: #777;
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+
+#days li.active {
+	background: #1abc9c;
+	color: white !important;
+}
+
+#next,
+#prev {
+	cursor: pointer;
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width: 720px) {
+	.weekdays li,
+	#days li {
+		width: 13.1%;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.weekdays li,
+	#days li {
+		width: 12.5%;
+	}
+	#days li .active {
+		padding: 2px;
+	}
+}
+
+@media screen and (max-width: 290px) {
+	.weekdays li,
+	#days li {
+		width: 12.2%;
+	}
+}
+
+#days,
+#weekdays {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+@media all and (-ms-high-contrast: none) {
+	#days {
+		display: -ms-grid;
+		-ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		-ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	}
+}

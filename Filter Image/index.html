@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Apply a Filter to Your Image</h1>
+    <p>
+      Please, upload an image and apply the filter that best suits the image
+    </p>
+    <input id="upload" type="file" accept="image/*" />
+    <div id="images" style="visibility: hidden;">
+      <h2>Original image</h2>
+      <img id="imageToFilter" style="max-width: 100%; height: 200px;" />
+      <div style="margin-top: 5px;">
+        <span>Filter: </span>
+        <input type="radio" name="filterRadio" value="noFilter" checked />
+        <label>No Filter</label>
+        <input type="radio" name="filterRadio" value="threshold" />
+        <label>Threshold</label>
+        <input type="radio" name="filterRadio" value="sharpen" />
+        <label>Sharpen</label>
+        <input type="radio" name="filterRadio" value="blur" />
+        <label>Blur</label>
+      </div>
+      <h2>Filtered image</h2>
+      <img id="filteredImage" style="max-width: 100%;" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
