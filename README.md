@@ -131,20 +131,6 @@
   title="Optional title"
   style="display: inline-block; margin: 0 auto; width: 400px; height:400px">
 <h1 style="text-align:center; Color:yellow;margin:30px;">Project Link You Click Project Name go to Project netlify link<h1>
-<!-- <style type="text/css">
-.tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
-.tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-zobh{background-color:#f56b00;border-color:#ffffff;color:#ffffff;font-size:13px;text-align:left;vertical-align:top}
-.tg .tg-7d57{background-color:#FCFBE3;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-dg7a{background-color:#f7d2ad;text-align:left;vertical-align:top;color:blue}
-.tg .tg-k2ye{background-color:#FCFBE3;border-color:inherit;text-align:right;vertical-align:top}
-a{color:blue}
-</style> -->
 <table class="tg">
 <thead>
   <tr>
