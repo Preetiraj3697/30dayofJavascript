@@ -25,7 +25,9 @@
     z-index: 99999;
   }
   
-  
+  img{
+    width:100%;
+  }
   /* Dark Mode */
   body.dark-mode {
     background-color: #111;
