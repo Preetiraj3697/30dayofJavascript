@@ -4,134 +4,134 @@
   src="30dayofJavascriptProject/Images/AlarmClock.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/Calculator.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/Calender.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/Captcha.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/clock.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/ColorPallat.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/CountryGuide.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/Dictionary.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/FaviconFetcher.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/GradientGenerator.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/ImageEditor.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/ImageFilter.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
 <img
   src="30dayofJavascriptProject/Images/LoginForm.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/MathGame.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/ParrotColor.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/ProductZoom.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/ProfileCard.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/QuizApp.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/Quote.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
 <img
   src="30dayofJavascriptProject/Images/RandomUser.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/Recipe.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/SimpleInterest.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/Tictoetak.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/TodoList.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
   <img
   src="30dayofJavascriptProject/Images/TypingSpeed.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
    <img
   src="30dayofJavascriptProject/Images/Scratch.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px; height:300px">
+  style="display: inline-block; margin: 0 auto; width: 500px; height:500px">
 <h1 style="text-align:center; Color:yellow;margin:30px;">Project Link You Click Project Name go to Project netlify link<h1>
-<style type="text/css">
+<!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
 .tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:1px;color:#333;
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
@@ -144,7 +144,7 @@
 .tg .tg-dg7a{background-color:#f7d2ad;text-align:left;vertical-align:top;color:blue}
 .tg .tg-k2ye{background-color:#FCFBE3;border-color:inherit;text-align:right;vertical-align:top}
 a{color:blue}
-</style>
+</style> -->
 <table class="tg">
 <thead>
   <tr>
