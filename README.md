@@ -214,7 +214,7 @@
     <td class="tg-0pky">23</td>
     <td class="tg-dg7a"><a href="https://relaxed-mochi-a0dfee.netlify.app/">Quiz App</a></td>
     <td class="tg-0pky">24</td>
-    <td class="tg-dg7a"><a href="https://singular-kleicha-3def83.netlify.app/">Scratch Card</a>/td>
+    <td class="tg-dg7a"><a href="https://singular-kleicha-3def83.netlify.app/">Scratch Card</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">25</td>
