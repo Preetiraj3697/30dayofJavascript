@@ -1,6 +1,7 @@
 
 <h1 style="text-align:center; Color:yellow;margin:30px;">Project View<h1>
 <h3><a href="https://fabulous-klepon-7100da.netlify.app/">30dayofjavascript</a></h3>
+<p>
 <img
   src="30dayofJavascriptProject/Images/AlarmClock.png"
   alt="Alt text"
